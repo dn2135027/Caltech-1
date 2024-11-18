@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                text-align: center;
+                box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+                border-radius: 12px;
+                width: 240px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 12px;
+                /*background: linear-gradient(120deg, red, orange 50%)*/
+                /*background: radial-gradient(red, orange);*/
+                /*background: conic-gradient(red, orange);;*/
+                background: linear-gradient(120deg, #39ef74, #4600f1 100%);
+                animation: rotateCard 10s infinite;
+            }
+            img{
+                width: 128px;
+                height: 128px;
+                border-radius: 50%;
+            }
+            @keyframes rotateCard {
+                50% {transform: rotate(360deg);}
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h2>John Watson</h2>
+            <img src="images/profile.jpg" alt="John" width="275" height="200">
+            <p>john.watson@example.com</p>
+            <br> 
+            <b> <a href="">Manage Addresses</a></b>
+            <br>
+            <b> <a href="">Manage Orders</a></b>
+            <br>
+            <b> <a href="">Manage Membership</a></b>
+            <br>
+            <button>Update Profile</button>
+        </div>
+    </body>
+</html>
