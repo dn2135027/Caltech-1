@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Application Page</h2>
+    <form action="welcome.html">
+    <label for="fname">First Name</label>
+    <input type="text" name="fname" 
+    placeholder= "Enter First Name" 
+    required/><br/>
+
+    <label for="lname">Last Name</label>
+    <input type="text" name="lname" 
+    placeholder= "Enter Last Name" 
+    required/><br/>
+
+    <label for="Gender">Gender</label>
+    <input type="radio" name="gender" 
+    value="male" required/> <span> : Male </span>
+    <input type="radio" name="gender" 
+    value="female" required/> <span> : Female </span>
+    <br/>
+
+    <label for="Hobbies">Hobbies</label>
+    <input type="checkbox" name="Hobbies" 
+    value="Reading" required/> <span> : Reading </span>
+    <input type="checkbox" name="Hobbies" 
+    value="Playing" required/> <span> : Playing </span>
+    <br/>
+
+    <label for="city">City</label>
+    <select name=”city”>
+        <option>--Select City--</option>
+		<option value="Bangalore">Bangalore</option>
+		<option value="Mumbai">Mumbai</option>
+		<option value="Delhi">Delhi</option>
+	</select><br/>
+
+    <label for="Profile">Profile</label>
+    <input type="file" name="Profile"
+    required/><br/>
+
+    <label for="dob">DOB</label>
+    <input type="date" name="dob"
+    required/><br/>
+
+    <label for="phonenumber">Phone#</label>
+    <input type="number" name="Phone#"
+    placeholder="Enter number"
+    required/><br/>
+
+    <label for="urlname">LinkedIn URL</label>
+    <input type="url" name="urlname"
+    placeholder="Enter your valid LinkedIN Profile"
+    required/><br/>
+
+    <label for="emailid">EmailID</label>
+    <input type="email" name="emailid"
+    placeholder="Enter your email id"
+    required/><br/>
+
+    <label for="pass">Password</label>
+    <input type="password" name="pass"
+    placeholder="Enter your Password"
+    required/><br/>
+
+    <input type="submit" value="Create Profile"/>
+    <input type="reset"/>
+    </form>
+</body>
+</html>
